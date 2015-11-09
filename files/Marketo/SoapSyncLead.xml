@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:paramsSyncLead xmlns:ns2="http://www.marketo.com/mktows/">
+    <leadRecord>
+        <Id>4170</Id>
+        <leadAttributeList>
+            <attribute>
+                <attrName>FirstName</attrName>
+                <attrValue>TestFromXml</attrValue>
+            </attribute>
+            <attribute>
+                <attrName>LastName</attrName>
+                <attrValue>lname from code</attrValue>
+            </attribute>
+            <attribute>
+                <attrName>Company</attrName>
+                <attrValue>MyDemoCompany</attrValue>
+            </attribute>
+        </leadAttributeList>
+    </leadRecord>
+    <returnLead>true</returnLead>
+</ns2:paramsSyncLead>

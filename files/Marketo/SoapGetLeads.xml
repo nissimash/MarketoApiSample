@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:successGetMultipleLeads xmlns:ns2="http://www.marketo.com/mktows/">
+    <result>
+        <returnCount>3</returnCount>
+        <remainingCount>0</remainingCount>
+        <newStreamPosition>id:8:ts:1428270075:os:0:rc:0</newStreamPosition>
+        <leadRecordList>
+            <leadRecord>
+                <Id>1</Id>
+                <Email>test@test.com</Email>
+                <ForeignSysPersonId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <ForeignSysType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <leadAttributeList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true">
+                    <attribute>
+                        <attrName>AnonymousIP</attrName>
+                        <attrType>string</attrType>
+                        <attrValue>82.135.3.146</attrValue>
+                    </attribute>
+                    <attribute>
+                        <attrName>Company</attrName>
+                        <attrType>string</attrType>
+                        <attrValue>Magic Software Software</attrValue>
+                    </attribute>
+                    <attribute>
+                        <attrName>Country</attrName>
+                        <attrType>string</attrType>
+                        <attrValue>Sweden</attrValue>
+                    </attribute>
+                    <attribute>
+                        <attrName>FirstName</attrName>
+                        <attrType>string</attrType>
+                        <attrValue>new</attrValue>
+                    </attribute>
+                    <attribute>
+                        <attrName>InferredCompany</attrName>
+                        <attrType>string</attrType>
+                        <attrValue>M-net Telekommunikations GmbH</attrValue>
+                    </attribute>
+                    <attribute>
+                        <attrName>InferredCountry</attrName>
+                        <attrType>string</attrType>
+                        <attrValue>Germany</attrValue>
+                    </attribute>
+                    <attribute>
+                        <attrName>LastName</attrName>
+                        <attrType>string</attrType>
+                        <attrValue>lead</attrValue>
+                    </attribute>
+                    <attribute>
+                        <attrName>LeadScore</attrName>
+                        <attrType>integer</attrType>
+                        <attrValue>20</attrValue>
+                    </attribute>
+                    <attribute>
+                        <attrName>Website</attrName>
+                        <attrType>url</attrType>
+                        <attrValue>TEST.com</attrValue>
+                    </attribute>
+                </leadAttributeList>
+            </leadRecord>
+            <leadRecord>
+                <Id>3</Id>
+                <Email>nissim.a@gmail.com</Email>
+                <ForeignSysPersonId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <ForeignSysType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <leadAttributeList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true">
+                    <attribute>
+                        <attrName>AnonymousIP</attrName>
+                        <attrType>string</attrType>
+                        <attrValue>79.180.177.46</attrValue>
+                    </attribute>
+                    <attribute>
+                        <attrName>Company</attrName>
+                        <attrType>string</attrType>
+                        <attrValue>Magic Software</attrValue>
+                    </attribute>
+                    <attribute>
+                        <attrName>Country</attrName>
+                        <attrType>string</attrType>
+                        <attrValue>United States</attrValue>
+                    </attribute>
+                    <attribute>
+                        <attrName>FirstName</attrName>
+                        <attrType>string</attrType>
+                        <attrValue>Nissim</attrValue>
+                    </attribute>
+                    <attribute>
+                        <attrName>InferredCompany</attrName>
+                        <attrType>string</attrType>
+                        <attrValue>Bezeq International</attrValue>
+                    </attribute>
+                    <attribute>
+                        <attrName>InferredCountry</attrName>
+                        <attrType>string</attrType>
+                        <attrValue>Israel</attrValue>
+                    </attribute>
+                    <attribute>
+                        <attrName>LastName</attrName>
+                        <attrType>string</attrType>
+                        <attrValue>Ashkenazi</attrValue>
+                    </attribute>
+                    <attribute>
+                        <attrName>LeadScore</attrName>
+                        <attrType>integer</attrType>
+                        <attrValue>100</attrValue>
+                    </attribute>
+                </leadAttributeList>
+            </leadRecord>
+            <leadRecord>
+                <Id>8</Id>
+                <Email>example@example.com</Email>
+                <ForeignSysPersonId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <ForeignSysType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <leadAttributeList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true">
+                    <attribute>
+                        <attrName>Company</attrName>
+                        <attrType>string</attrType>
+                        <attrValue>manualEntry</attrValue>
+                    </attribute>
+                    <attribute>
+                        <attrName>FirstName</attrName>
+                        <attrType>string</attrType>
+                        <attrValue>exampleRegev</attrValue>
+                    </attribute>
+                    <attribute>
+                        <attrName>LastName</attrName>
+                        <attrType>string</attrType>
+                        <attrValue>manualEntry</attrValue>
+                    </attribute>
+                    <attribute>
+                        <attrName>LeadScore</attrName>
+                        <attrType>integer</attrType>
+                        <attrValue>30</attrValue>
+                    </attribute>
+                </leadAttributeList>
+            </leadRecord>
+        </leadRecordList>
+    </result>
+</ns2:successGetMultipleLeads>

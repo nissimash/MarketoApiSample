@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:paramsSyncMObjects xmlns:ns2="http://www.marketo.com/mktows/">
+        <mObjectList>
+            <!--Zero or more repetitions:-->
+            <mObject>
+               <type>Opportunity</type>
+			         <id>3</id>
+               <attribList>
+                  <attrib>
+                     <name>Name</name>
+                     <value>Opportunity 3 Test</value>
+                  </attrib>
+                  <attrib>
+                     <name>IsClosed</name>
+                     <value>1</value>
+                  </attrib>
+                  <attrib>
+                     <name>IsWon</name>
+                     <value>1</value>
+                  </attrib>
+                  <attrib>
+                     <name>Amount</name>
+                     <value>501.00</value>
+                  </attrib>
+                  <attrib>
+                     <name>CloseDate</name>
+                     <value>2014-10-24</value>
+                  </attrib>
+                  <attrib>
+                     <name>ExpectedRevenue</name>
+                     <value>501</value>
+                  </attrib>
+                  <attrib>
+                     <name>Probability</name>
+                     <value>100</value>
+                  </attrib>
+               </attribList>
+
+            </mObject>
+         </mObjectList>
+         <operation>UPSERT</operation>
+</ns2:paramsSyncMObjects>

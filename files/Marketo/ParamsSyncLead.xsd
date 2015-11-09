@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:wmh="http://www.wmhelp.com/2003/eGenerator" elementFormDefault="qualified" xmlns:ns2="www.ns2.com">
+  <xs:import namespace="www.ns2.com" schemaLocation="_ns2.xsd"/>
+  <xs:element name="leadRecord">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Id"/>
+        <xs:element ref="leadAttributeList"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Id" type="xs:string"/>
+  <xs:element name="leadAttributeList">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="attribute"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="attribute">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="attrName"/>
+        <xs:element ref="attrValue"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="attrName" type="xs:string"/>
+  <xs:element name="attrValue" type="xs:string"/>
+  <xs:element name="returnLead" type="xs:string"/>
+</xs:schema>
